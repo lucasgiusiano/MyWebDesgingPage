@@ -1,0 +1,69 @@
+.body{
+    font-family: Nunito, sans-serif;
+}
+
+.navbar-brand img{
+    width: 4vw;
+}
+
+.fa-house{
+    color: #cb9b56;
+}
+
+.fa-house:hover{
+    color: whitesmoke;
+}
+
+.dPortada{
+    position: relative;
+    height: 100vh;
+}
+
+.dPortada video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+.dTitulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+  }
+
+.dH1{
+    font-size: 5vw; 
+}
+
+.subTitle{
+  opacity: 0.3;
+}
+
+.card{
+  border-radius: 10px;
+}
+
+.card img{
+  border-radius: 10px 10px 0px 0px;
+}
+
+.dServicios .card-body hr{
+
+  color: whitesmoke;
+  width: 100%;
+  height: 1px;
+  opacity: 1;
+}
+
+.dTrabajos{
+  background-color: #25374B;
+}
+
+
